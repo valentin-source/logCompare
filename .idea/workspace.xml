@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="100a2c12-0a3a-4887-af54-cd30ba5d4edb" name="Changes" comment="added my rpm log">
+    <list default="true" id="100a2c12-0a3a-4887-af54-cd30ba5d4edb" name="Changes" comment="fixed output">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +56,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669935937101</updated>
-      <workItem from="1669935938669" duration="1047000" />
+      <workItem from="1669935938669" duration="2267000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1669935976326</created>
@@ -73,7 +72,28 @@
       <option name="project" value="LOCAL" />
       <updated>1669936140132</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added implementation (drunk)">
+      <created>1669937013127</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1669937013127</updated>
+    </task>
+    <task id="LOCAL-00004" summary="better output (still only terminal)">
+      <created>1669937779658</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1669937779658</updated>
+    </task>
+    <task id="LOCAL-00005" summary="fixed output">
+      <created>1669937889701</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1669937889701</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -93,6 +113,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="added my rpm log" />
-    <option name="LAST_COMMIT_MESSAGE" value="added my rpm log" />
+    <MESSAGE value="added implementation (drunk)" />
+    <MESSAGE value="better output (still only terminal)" />
+    <MESSAGE value="fixed output" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed output" />
   </component>
 </project>
