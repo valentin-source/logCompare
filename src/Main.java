@@ -15,7 +15,7 @@ public class Main {
             String line;
             while ((line = br.readLine()) != null) {
                 //process the line
-                System.out.println(line);
+                //System.out.println(line);
                 if (!lineInFile(line, file2)) {
                     //System.out.println("Not Found");
                     System.out.println(count + " :: Didnt find: " + line);
