@@ -19,7 +19,10 @@ public class Main {
                 if (!lineInFile(line, file2)) {
                     //System.out.println("Not Found");
                     //System.out.println(count + " :: Didnt find: " + line);
-                    System.out.println("sudo dnf install " + line);
+                    if(count == 0) {
+                        System.out.println("sudo dnf install " + line);
+                    }
+                    System.out.print(" " + line);
                     count  ++;
                 }
             }
