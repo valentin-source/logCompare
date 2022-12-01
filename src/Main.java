@@ -4,6 +4,10 @@ public class Main {
     public static void main(String[] args) {
         String file1 = "rpmpackagelogV.txt";
         String file2 = "rpmpackagelogB.txt";
+        int count = 0;
+
+
+
 
         //for each line in file1, check if it is in file2
         try {
@@ -13,8 +17,9 @@ public class Main {
                 //process the line
                 System.out.println(line);
                 if (!lineInFile(line, file2)) {
-                    System.out.println("Not Found");
-                    System.out.println(line);
+                    //System.out.println("Not Found");
+                    System.out.println(count + " :: Didnt find: " + line);
+                    count  ++;
                 }
             }
             br.close();
